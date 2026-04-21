@@ -16,3 +16,4 @@ resource "azurerm_storage_container" "container" {
   storage_account_name  = azurerm_storage_account.janstorage.name
   container_access_type = "blob"
 }
+
