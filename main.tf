@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "jannat" {
-  name     = "jannatrg"
+  name     = var.mam
   location = "south india"
 }
 
