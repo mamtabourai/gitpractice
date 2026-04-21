@@ -14,5 +14,5 @@ provider "azurerm" {
 }
 
 variable "mam" {
-  
+  default = "chandra"
 }
